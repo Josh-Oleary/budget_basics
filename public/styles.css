@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 15em;
+}
+
+#register-header {
+    text-align: center;
+}
+
+#register-container {
+    margin: 1em auto;
+}
+
+#register-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 10em;
+    justify-content: space-around;
+}
+
+.register-input {
+    height: 2.5em;
+}
+
+/* .submit-btn {
+    height: 2.5em;
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.submit-btn:hover {
+    cursor: pointer;
+}
